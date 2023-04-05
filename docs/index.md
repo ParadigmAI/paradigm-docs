@@ -2,6 +2,12 @@
 
 The simplest and the fastest MLOps tool 🍀🚀
 
+Paradigm streamlines the process of transitioning your ML/AI prototypes into production-ready projects. Say goodbye to the time-consuming and cumbersome task of refactoring your code, as Paradigm simplifies and optimizes MLOps practices for you.
+
+<!-- [Check out this video on how Paradigm can accelerate the productionization of your AI projects ↗](https://youtu.be/P6ZM7KYtx88) -->
+<a href="https://youtu.be/P6ZM7KYtx88" target="_blank">Check out this video on how Paradigm can accelerate the productionization of your AI projects ↗</a>
+
+
 # Quickstart
 
 * `mkdocs new [dir-name]` - Create a new project.
