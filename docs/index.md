@@ -1,8 +1,8 @@
-# Welcome to Paradigm Documentation
+# Getting Started
 
-The simplest and the fastest MLOps tool.
+The simplest and the fastest MLOps tool 🍀🚀
 
-## Quickstart
+# Quickstart
 
 * `mkdocs new [dir-name]` - Create a new project.
 * `mkdocs serve` - Start the live-reloading docs server.
