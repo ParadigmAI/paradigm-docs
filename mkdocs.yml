@@ -1,4 +1,8 @@
-site_name: My Docs
+site_name: Paradigm Documentation
 theme:
   name: material
+  favicon: assets/images/favicon.png
+  logo: assets/logo.png
+  palette:
+    primary: white
 repo_url: https://github.com/ParadigmAI/paradigm
