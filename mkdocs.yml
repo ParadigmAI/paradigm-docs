@@ -1,6 +1,9 @@
 site_name: Paradigm Documentation
+repo_name: ParadigmAI/paradigm
+repo_url: https://github.com/ParadigmAI/paradigm
 theme:
   name: material
+  # custom_dir: material/.overrides
   favicon: assets/images/favicon.png
   logo: assets/logo.png
   features:
@@ -12,11 +15,13 @@ theme:
     - navigation.top
   palette:
     primary: white
-repo_url: https://github.com/ParadigmAI/paradigm
-repo_name: ParadigmAI/paradigm
+  font:
+    text: Roboto
+    code: Roboto Mono
 extra:
   repo:
     facts:
       - latest
       - stars
-      - releases
+      - forks
+
