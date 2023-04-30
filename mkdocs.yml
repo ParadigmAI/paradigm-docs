@@ -3,6 +3,14 @@ theme:
   name: material
   favicon: assets/images/favicon.png
   logo: assets/logo.png
+  features:
+    - navigation.instant
+    - navigation.tracking
+    - navigation.tabs
+    - navigation.tabs
+    - navigation.tabs.sticky
+    - navigation.sections
+    - navigation.top
   palette:
     primary: white
 repo_url: https://github.com/ParadigmAI/paradigm
