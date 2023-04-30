@@ -1,23 +1,35 @@
-# Getting Started
+#
+<p align="center">
+  <img src="./assets/logo_slogan_2.png">
+</p>
 
-The simplest and the fastest MLOps tool 🍀🚀
+<p align="center">
+    <a href="#"><img alt="version" src="https://img.shields.io/badge/version-0.1.0-yellow"></a>
+    <a href="#"><img alt="discord" src="https://img.shields.io/badge/chat-discord-blueviolet"></a>
+</p>
 
-Paradigm streamlines the process of transitioning your ML/AI prototypes into production-ready projects. Say goodbye to the time-consuming and cumbersome task of refactoring your code, as Paradigm simplifies and optimizes MLOps practices for you.
+🌟 **With Paradigm, you ML code is production-ready from the beginning**
 
-<!-- [Check out this video on how Paradigm can accelerate the productionization of your AI projects ↗](https://youtu.be/P6ZM7KYtx88) -->
-<a href="https://youtu.be/P6ZM7KYtx88" target="_blank">Check out this video on how Paradigm can accelerate the productionization of your AI projects ↗</a>
+Paradigm is a light-weight, lightning-fast, supremely adaptable tool, effortlessly packaging your ML code into robust pipelines for seamless deployment on Kubernetes. Bypass the need for code refactoring as Paradigm intelligently interprets your Python notebooks and scripts, priming them for scalable production. Paradigm is your ultimate ally in ML deployment, merging unparalleled speed, adaptability, and simplicity into one package.
+
+## Paradigm in Action
+### Terminal View
+![](assets/prdm-demo-2.gif)
+
+### DAG View
+![](assets/prdm-demo-1.gif)
 
 
-# Quickstart
+## Deploy an ML pipeline in just 2 steps
 
-* `mkdocs new [dir-name]` - Create a new project.
-* `mkdocs serve` - Start the live-reloading docs server.
-* `mkdocs build` - Build the documentation site.
-* `mkdocs -h` - Print help message and exit.
+```console
+$ paradigm launch --step <your-project-notebooks-or-scripts>
+$ paradigm deploy
+```
 
-## Project layout
+<!-- ## Project layout
 
     mkdocs.yml    # The configuration file.
     docs/
         index.md  # The documentation homepage.
-        ...       # Other markdown pages, images and other files.
+        ...       # Other markdown pages, images and other files. -->
