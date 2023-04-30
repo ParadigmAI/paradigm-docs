@@ -9,9 +9,13 @@ theme:
     - navigation.tabs
     - navigation.tabs
     - navigation.tabs.sticky
-    - navigation.sections
     - navigation.top
   palette:
     primary: white
 repo_url: https://github.com/ParadigmAI/paradigm
 repo_name: ParadigmAI/paradigm
+extra:
+  repo:
+    facts:
+      - latest
+      - stars
