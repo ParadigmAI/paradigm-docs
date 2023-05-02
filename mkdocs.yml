@@ -25,3 +25,13 @@ extra:
       - stars
       - forks
 
+# Page tree
+nav:
+  - Home: index.md
+  - Installation:
+    - Locally: Installation/Locally.md
+    - On AWS: Installation/On_AWS.md
+  - Tutorials:
+    - Basic Pipeline: Tutorials/basic_pipeline.md
+  - Support:
+    - Reach out: Support/Reach_out.md
