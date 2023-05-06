@@ -29,6 +29,7 @@ extra:
 nav:
   - Home: index.md
   - Installation:
+    - Video Tutorial: Installation/Video_tutorial.md
     - Locally: Installation/Locally.md
     - On AWS: Installation/On_AWS.md
   - Tutorials:
