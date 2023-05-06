@@ -20,14 +20,14 @@ Note the `requirements.p3` file where we have the necessary dependencies for the
 
 - First, pipeline is lauched with the below command
 ```
-paradigm launch --steps p1 p2 p3
+paradigm launch --steps p1 p2 p3 --region_name us-east-1
 ```
 This commands basically takes care of containerizing the scripts and notebooks provided under `--steps` and uploading them to a specified container registry (a container registry is not used for local deployements).
 
 - Next, we execute the pipeline with the below command
 
 ```
-paradigm deploy --steps p1 p2 --dependencies "p2:p1,p3:p2|p1" --deployment p3 --deployment_port 8000 --output workflow.yaml --name pipeline1
+paradigm deploy --steps p1 p2 --dependencies "p2:p1,p3:p2|p1" --deployment p3 --deployment_port 8000 --output workflow.yaml --name pipeline1 --region_name us-east-1
 ```
 `--steps` should speicify all steps, except any step that should be run as a service, e.g., an API endpoint. 
 
