@@ -46,13 +46,14 @@ paradigm launch --steps p1 p2 p3 --region_name us-east-1
 - As the final step, deploy the pipeline with the below command.
 
 ```
-paradigm deploy --steps p1 p2 --dependencies "p2:p1,p3:p2|p1" --deployment p3 --deployment_port 8000 --output workflow.yaml --name pipe1 --region_name us-east-1
+paradigm deploy --steps p1 p2 --dependencies "p2:p1,p3:p2|p1" --deployment p3 --deployment_port 8000 --deployment_memory 2Gi --output workflow.yaml --name pipe1 --region_name us-east-1
 ```
 - In the above command: 
     - `--steps` should speicify all steps, except any step that should be run as a service, e.g., an API endpoint. 
     - `--dependencies "p2:p1,p3:p2|p1"` defines the graph stucture (DAG) on how the steps should be run. In this example, we are stating that step `p2` is dependent on `p1` and step `p3` is dependent on both `p2` and `p1`. 
     - `--deployment p3` defines a service that needs to be run at the end of the pipeline. Hence, we don't mention is under `--steps`. 
     - `--deployment_port` is defined if the above service is exposed via a specific port internally. 
+    - `--deployment_memory` is to specify the amount of memory required for the deployment step
     - `--name` can be any name that you want to give this particualr pipeline
     - `--region_name` is the aws region that you want to use
 
